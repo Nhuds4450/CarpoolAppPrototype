@@ -1,0 +1,97 @@
+﻿<Page x:Class="WpfApp1.Page8"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="667" d:DesignWidth="375"
+      Title="Page8">
+
+    <Grid Background="White">
+        <Grid Background="White">
+            <Button Content="My Pools" HorizontalAlignment="Left" Margin="40,75,0,0" VerticalAlignment="Top" Width="100" Height="41" FontSize="18"/>
+            <Button Content="Give" HorizontalAlignment="Left" Margin="139,75,0,0" VerticalAlignment="Top" Width="100" Height="41" FontSize="18" Background="#FFB20E0E" Foreground="White"/>
+            <Button Content="Get" HorizontalAlignment="Left" Margin="239,75,0,0" VerticalAlignment="Top" Width="100" Height="41" FontSize="18" Background="#FFDDDDDD" Foreground="Black"/>
+            <ListView Margin="0,125,-1,58">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+                <Label Content="Monday&#x9;&#x9;&#x9;        March 19, 2018" Width="313" FontSize="14" Background="#FF233340" Foreground="White"/>
+                <Label Content="02:00 PM" Width="313" FontSize="14" BorderBrush="#FF233340"/>
+                <Canvas Height="109.192" Width="355">
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="80" Stroke="Black" VerticalAlignment="Top" Width="328.656"/>
+                    <Image HorizontalAlignment="Left" Height="64" VerticalAlignment="Top" Width="71" Source="Matthew+Partovi+Profile+Circle.png" Canvas.Left="8" Canvas.Top="8"/>
+                    <Label x:Name="___Label___Robert__Like_basketball_" Content="Richard: likes basketball and &#xA;girls" HorizontalAlignment="Left" Height="52" VerticalAlignment="Top" Width="165.191" Canvas.Left="85" Canvas.Top="8"/>
+                    <Ellipse Fill="#FF0947EC" HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="20" Canvas.Left="256.484" Canvas.Top="8"/>
+                    <Label Content="Coming" HorizontalAlignment="Left" Height="33.896" VerticalAlignment="Top" Width="52.172" Canvas.Left="276.484" Canvas.Top="4.586"/>
+                    <Image HorizontalAlignment="Left" Height="89.558" VerticalAlignment="Top" Width="111.529" Source="435814-200.png" Canvas.Left="85" Canvas.Top="19.634"/>
+                    <Rectangle Fill="#FFAC1616" HorizontalAlignment="Left" Height="27.225" Stroke="Black" VerticalAlignment="Top" Width="67" Canvas.Left="255.191" Canvas.Top="44.775"/>
+                    <Label Content="ADD" HorizontalAlignment="Left" Height="34.902" VerticalAlignment="Top" Width="43.473" FontSize="16" Foreground="White" Canvas.Left="270.508" Canvas.Top="43.482"/>
+                </Canvas>
+                <Canvas Height="109.192" Width="355">
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="80" Stroke="Black" VerticalAlignment="Top" Width="328.656"/>
+                    <Image HorizontalAlignment="Left" Height="64" VerticalAlignment="Top" Width="71" Source="Matthew+Partovi+Profile+Circle.png" Canvas.Left="8" Canvas.Top="8"/>
+                    <Label x:Name="___Label___Robert__Like_basketball_1" Content="Richard: likes basketball and &#xA;girls" HorizontalAlignment="Left" Height="52" VerticalAlignment="Top" Width="165.191" Canvas.Left="85" Canvas.Top="8"/>
+                    <Ellipse Fill="#FF0947EC" HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="20" Canvas.Left="256.484" Canvas.Top="8"/>
+                    <Label Content="Coming" HorizontalAlignment="Left" Height="33.896" VerticalAlignment="Top" Width="52.172" Canvas.Left="276.484" Canvas.Top="4.586"/>
+                    <Image HorizontalAlignment="Left" Height="89.558" VerticalAlignment="Top" Width="111.529" Source="435814-200.png" Canvas.Left="85" Canvas.Top="19.634"/>
+                    <Rectangle Fill="#FFAC1616" HorizontalAlignment="Left" Height="27.225" Stroke="Black" VerticalAlignment="Top" Width="67" Canvas.Left="255.191" Canvas.Top="44.775"/>
+                    <Label Content="ADD" HorizontalAlignment="Left" Height="34.902" VerticalAlignment="Top" Width="43.473" FontSize="16" Foreground="White" Canvas.Left="270.508" Canvas.Top="43.482"/>
+                </Canvas>
+                <Label Content="02:30 PM" Width="313" FontSize="14" BorderBrush="#FF233340"/>
+                <Canvas Height="109.192" Width="355">
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="80" Stroke="Black" VerticalAlignment="Top" Width="328.656"/>
+                    <Image HorizontalAlignment="Left" Height="64" VerticalAlignment="Top" Width="71" Source="Matthew+Partovi+Profile+Circle.png" Canvas.Left="8" Canvas.Top="8"/>
+                    <Label x:Name="___Label___Robert__Like_basketball_2" Content="Richard: likes basketball and &#xA;girls" HorizontalAlignment="Left" Height="52" VerticalAlignment="Top" Width="165.191" Canvas.Left="85" Canvas.Top="8"/>
+                    <Ellipse Fill="#FF0947EC" HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="20" Canvas.Left="256.484" Canvas.Top="8"/>
+                    <Label Content="Coming" HorizontalAlignment="Left" Height="33.896" VerticalAlignment="Top" Width="52.172" Canvas.Left="276.484" Canvas.Top="4.586"/>
+                    <Image HorizontalAlignment="Left" Height="89.558" VerticalAlignment="Top" Width="111.529" Source="435814-200.png" Canvas.Left="85" Canvas.Top="19.634"/>
+                    <Rectangle Fill="#FFAC1616" HorizontalAlignment="Left" Height="27.225" Stroke="Black" VerticalAlignment="Top" Width="67" Canvas.Left="255.191" Canvas.Top="44.775"/>
+                    <Label Content="ADD" HorizontalAlignment="Left" Height="34.902" VerticalAlignment="Top" Width="43.473" FontSize="16" Foreground="White" Canvas.Left="270.508" Canvas.Top="43.482"/>
+                </Canvas>
+                <Label Content="Tuesday&#x9;&#x9;&#x9;        March 20, 2018" Width="313" FontSize="14" Background="#FF233340" Foreground="White"/>
+                <Label Content="03:00 PM" Width="313" FontSize="14" BorderBrush="#FF233340"/>
+                <Canvas Height="109.192" Width="355">
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="80" Stroke="Black" VerticalAlignment="Top" Width="328.656"/>
+                    <Image HorizontalAlignment="Left" Height="64" VerticalAlignment="Top" Width="71" Source="Matthew+Partovi+Profile+Circle.png" Canvas.Left="8" Canvas.Top="8"/>
+                    <Label x:Name="___Label___Robert__Like_basketball_3" Content="Richard: likes basketball and &#xA;girls" HorizontalAlignment="Left" Height="52" VerticalAlignment="Top" Width="165.191" Canvas.Left="85" Canvas.Top="8"/>
+                    <Ellipse Fill="#FF0947EC" HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="20" Canvas.Left="256.484" Canvas.Top="8"/>
+                    <Label Content="Coming" HorizontalAlignment="Left" Height="33.896" VerticalAlignment="Top" Width="52.172" Canvas.Left="276.484" Canvas.Top="4.586"/>
+                    <Image HorizontalAlignment="Left" Height="89.558" VerticalAlignment="Top" Width="111.529" Source="435814-200.png" Canvas.Left="85" Canvas.Top="19.634"/>
+                    <Rectangle Fill="#FFAC1616" HorizontalAlignment="Left" Height="27.225" Stroke="Black" VerticalAlignment="Top" Width="67" Canvas.Left="255.191" Canvas.Top="44.775"/>
+                    <Label Content="ADD" HorizontalAlignment="Left" Height="34.902" VerticalAlignment="Top" Width="43.473" FontSize="16" Foreground="White" Canvas.Left="270.508" Canvas.Top="43.482"/>
+                </Canvas>
+            </ListView>
+            <Button Content="PROFILE" HorizontalAlignment="Left" Height="58" Margin="0,609,0,0" VerticalAlignment="Top" Width="95" FontSize="16" Click="ProfileButtonClick" Background="#FFB20E0E" Foreground="White" BorderBrush="#FF18456A"/>
+            <Button Content="HOME" HorizontalAlignment="Left" Height="58" Margin="94,609,0,0" VerticalAlignment="Top" Width="95" FontSize="16" Click="HomeButtonClick" Foreground="White" Background="#FFB20E0E" BorderBrush="#FF18456A"/>
+            <Button Content="RIDE" HorizontalAlignment="Left" Height="58" Margin="189,609,0,0" VerticalAlignment="Top" Width="94" FontSize="16" Click="RideButtonClick" Background="#FF760F0F" Foreground="White" BorderBrush="#FF18456A"/>
+            <Button Content="SETTING" HorizontalAlignment="Left" Height="58" Margin="283,609,-1,0" VerticalAlignment="Top" Width="93" FontSize="16" Background="#FFB20E0E" Foreground="White" BorderBrush="#FF18456A"/>
+            <Button Content="NEXT" HorizontalAlignment="Left" Height="41" Margin="264,616,0,0" VerticalAlignment="Top" Width="101" Background="#FFE6E172" FontSize="16" Click="Button_Click"/>
+
+        </Grid>
+        <Canvas Margin="298,15.5,13,592">
+            <Image HorizontalAlignment="Left" Height="57" VerticalAlignment="Top" Width="60" Source="msg.png" Canvas.Top="2.5"/>
+            <Ellipse HorizontalAlignment="Left" Height="23.5" StrokeThickness="3" VerticalAlignment="Top" Width="24" Fill="#FFD30A0A" Canvas.Left="40" Canvas.Top="2.5"/>
+            <Label Content="2" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="16.5" Foreground="White" Canvas.Left="43.5"/>
+        </Canvas>
+        <Canvas Margin="10.003,15.5,313,595.934">
+            <Image HorizontalAlignment="Left" Height="46.132" VerticalAlignment="Top" Width="50" Source="bell.png" RenderTransformOrigin="0.5,0.5" Canvas.Top="9.434">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.256"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Ellipse HorizontalAlignment="Left" Height="23.5" StrokeThickness="3" VerticalAlignment="Top" Width="24" Fill="#FFD30A0A" Canvas.Left="27.997" Canvas.Top="2.5"/>
+            <Label Content="3" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="16.5" Foreground="White" Canvas.Left="31.497"/>
+
+        </Canvas>
+
+    </Grid>
+</Page>

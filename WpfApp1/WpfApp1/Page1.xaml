@@ -1,0 +1,22 @@
+﻿<Page x:Class="WpfApp1.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="667" d:DesignWidth="375"
+      Title="Page1">
+
+    <Grid Background="White">
+        <Label Content="Schpool" HorizontalAlignment="Left" Margin="52,62,0,0" VerticalAlignment="Top" Width="198" FontSize="48" Foreground="#FFB20E0E" FontWeight="Bold"/>
+        <Label Content="Find your ride" HorizontalAlignment="Left" Margin="146,127,0,0" VerticalAlignment="Top" Width="153" FontSize="22" Foreground="#FFB20E0E"/>
+        <TextBox x:Name="email" Height="38" Margin="10,232,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="355" FontSize="22" TextChanged="TextBox_TextChanged" FontFamily="Segoe UI Light" Opacity="0.85" HorizontalAlignment="Left"/>
+        <TextBox x:Name="email_Copy" Height="37" Margin="10,291,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="355" FontSize="22" TextChanged="TextBox_TextChanged" FontFamily="Segoe UI Light" Opacity="0.85" HorizontalAlignment="Left" TextAlignment="Justify"/>
+        <Button Content="LOGIN" HorizontalAlignment="Left" Margin="10,378,0,0" VerticalAlignment="Top" Width="355" Height="66" BorderBrush="#FFB20E0E" Background="#FFB20E0E" Foreground="White" FontSize="24" Click="Button_Click_1"/>
+        <Label Content="OR" HorizontalAlignment="Left" Margin="166,461,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button Content="Register" HorizontalAlignment="Left" VerticalAlignment="Top" Width="225" Margin="74,504,0,0" Height="46" Click="Button_Click_3" FontSize="18"/>
+        <Button Content="NEXT" HorizontalAlignment="Left" Height="41" Margin="272,616,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click_2" Background="#FFDFE889" FontSize="16"/>
+
+    </Grid>
+</Page>
